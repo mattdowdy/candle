@@ -1,17 +1,9 @@
 
-@media screen and (min-width: 813px) {
 body {
-  background: #9A0000;
-  font-family: 'Overpass Mono', monospace;
-  /*
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: none;
-  -moz-osx-font-smoothing: grayscale;
-  */
-  font-size: 8px;
+    background: #9A0000;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 8px;
 }
-}
-
 
 header {
   padding-left: 2.5rem;
@@ -58,17 +50,17 @@ footer {
 }
 
 .box_mix_link {
-  float:left;
-  position: absolute;
-  bottom: 7vh;
-  left: 0;
+float:left;
+position: absolute;
+bottom: 7vh;
+left: 0;
 background-color: #550099;
 width: 3.5vh;
 height: 3.5vh;
 }
 
 .box_instagram_link {
-  float:left;
+float:left;
 background-color: #000000;
 position: absolute;
 bottom: 0;
@@ -125,17 +117,61 @@ p {
 }
 
 
-@media screen and (max-width: 812px) {
-  body {
-      background: blue;
-      font-family: 'Overpass Mono', monospace;
-      font-size: 8px;
-
+@media screen and (max-width:823px) {
+  header {
+    padding-left: 1.5rem;
+    padding-top: .5rem;
   }
+
+  .box_contact_link {
+  background-color: #72683F;
+  float: right;
+  width: 3.5vh;
+  height: 3.5vh;
+  margin-top: .5rem;
+  margin-right: 1rem;
+  }
+
+  .box_one_off_link {
+  background-color: #D8BF21;
+  float: right;
+  width: 3.5vh;
+  height: 3.5vh;
+  margin-top: 5rem;
+  margin-right: 2.5rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 1.5rem;
+    margin-left: 1.25rem;
+  }
+
+  .box_mix_link {
+  float:left;
+  position: absolute;
+  bottom: 4.5rem;
+  left: 0;
+  background-color: #550099;
+  width: 3.5vh;
+  height: 3.5vh;
+  }
+
+  .box_instagram_link {
+  float:left;
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3.5vh;
+  height: 3.5vh;
+  }
+
   .candle_grid {
     float:left;
-    margin-left: 5rem;
+    margin-left: 4.5rem;
   }
+
   .short_standard {
   position: relative;
    width: 3rem;
@@ -158,11 +194,8 @@ p {
 
   .window {
   position: absolute;
-  width: 22%;
+  width: 40%;
   left: 2.5rem;
   top:10rem;
   }
-
-
 }
-
