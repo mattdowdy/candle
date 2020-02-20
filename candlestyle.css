@@ -1,0 +1,121 @@
+
+@media screen and (min-width: 601px) {
+body {
+  background: #9A0000;
+  font-family: 'Overpass Mono', monospace;
+  font-size: 8px;
+}
+}
+
+
+h1 {
+  font-weight: 600;
+  padding-left: 2.5em;
+  padding-top: 1.5em;
+}
+
+
+.box_contact_link {
+background-color: #72683F;
+position: fixed;
+top: 3rem;
+right: 3rem;
+width: 3.5vh;
+height: 3.5vh;
+}
+
+
+.box_one_off_link {
+background-color: #D8BF21;
+position: fixed;
+top: 5rem;
+right: 5rem;
+width: 3.5vh;
+height: 3.5vh;
+margin-right: 10vh;
+margin-top: 10vh;
+
+}
+
+.box_instagram_link {
+background-color: #000000;
+position: fixed;
+bottom: 3rem;
+left: 3rem;
+width: 3.5vh;
+height: 3.5vh;
+}
+
+.box_mix_link {
+background-color: #550099;
+position: fixed;
+bottom: 4rem;
+left: 3rem;
+width: 3.5vh;
+height: 3.5vh;
+margin-bottom: 4vh;
+}
+
+
+.window {
+position: absolute;
+height: auto;
+right: 3rem;
+bottom: 3rem;
+}
+
+.short_standard {
+  position: absolute;
+  height: 35%;
+  width: auto;
+  left: 13rem;
+  bottom: 3rem;
+
+}
+
+.tall_standard {
+  position: absolute;
+  height: 65%;
+  width: auto;
+  left: 28rem;
+  bottom: 3rem;
+}
+
+.thin_standard {
+  position: absolute;
+  height: 65%;
+  width: auto;
+  left: 46rem;
+  bottom: 3rem;
+}
+
+.short_standard_page {
+  position: absolute;
+  height: 35%;
+  width: auto;
+  left: 8rem;
+  bottom: 0rem;
+}
+
+p {
+
+}
+
+.home_box {
+  background-color: black;
+  position: fixed;
+  height: 3.5vh;
+  width: 3.5vh;
+  top: 3rem;
+  right: 3rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+      background: blue;
+      font-family: 'Overpass Mono', monospace;
+      font-size: 8px;
+
+  }
+}
