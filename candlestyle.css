@@ -3,90 +3,103 @@
 body {
   background: #9A0000;
   font-family: 'Overpass Mono', monospace;
+  /*
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  -moz-osx-font-smoothing: grayscale;
+  */
   font-size: 8px;
 }
 }
 
 
-h1 {
-  font-weight: 600;
-  padding-left: 2.5em;
-  padding-top: 1.5em;
+header {
+  padding-left: 2.5rem;
+  padding-top: 1.5rem;
 }
 
+h1 {
+  font-weight: 600;
+  float:left;
+}
 
 .box_contact_link {
 background-color: #72683F;
-position: fixed;
-top: 3rem;
-right: 3rem;
+float: right;
 width: 3.5vh;
 height: 3.5vh;
+margin-top: 1rem;
+margin-right: 2.5rem;
 }
-
 
 .box_one_off_link {
 background-color: #D8BF21;
-position: fixed;
-top: 5rem;
-right: 5rem;
+float: right;
 width: 3.5vh;
 height: 3.5vh;
-margin-right: 10vh;
-margin-top: 10vh;
-
+margin-top: 11rem;
+margin-right: 5.5rem;
 }
 
-.box_instagram_link {
-background-color: #000000;
-position: fixed;
-bottom: 3rem;
-left: 3rem;
-width: 3.5vh;
-height: 3.5vh;
-}
-
-.box_mix_link {
-background-color: #550099;
-position: fixed;
-bottom: 4rem;
-left: 3rem;
-width: 3.5vh;
-height: 3.5vh;
-margin-bottom: 4vh;
-}
+.clear {clear:left;}
 
 
 .window {
 position: absolute;
-height: auto;
-right: 3rem;
-bottom: 3rem;
+width: 22%;
+right: 2.5rem;
+bottom: 2.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+.box_mix_link {
+  float:left;
+  position: absolute;
+  bottom: 7vh;
+  left: 0;
+background-color: #550099;
+width: 3.5vh;
+height: 3.5vh;
+}
+
+.box_instagram_link {
+  float:left;
+background-color: #000000;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 3.5vh;
+height: 3.5vh;
+}
+
+.candle_grid {
+  float:left;
+  margin-left: 10rem;
 }
 
 .short_standard {
-  position: absolute;
-  height: 35%;
-  width: auto;
-  left: 13rem;
-  bottom: 3rem;
-
+position: relative;
+ height: 20vw;
+ width: auto;
+ margin-right: 13vw;
 }
 
 .tall_standard {
-  position: absolute;
-  height: 65%;
+  position: relative;
+  height: 35vw;
   width: auto;
-  left: 28rem;
-  bottom: 3rem;
+  margin-right: 13vw;
 }
 
 .thin_standard {
-  position: absolute;
-  height: 65%;
+  position: relative;
+  height: 35vw;
   width: auto;
-  left: 46rem;
-  bottom: 3rem;
 }
 
 .short_standard_page {
@@ -101,9 +114,10 @@ p {
 
 }
 
+
 .home_box {
   background-color: black;
-  position: fixed;
+  position: absolute;
   height: 3.5vh;
   width: 3.5vh;
   top: 3rem;
@@ -118,4 +132,26 @@ p {
       font-size: 8px;
 
   }
+  .short_standard {
+  position: relative;
+   width: 50vw;
+   height: auto;
+   margin-right: 13vw;
+  }
+
+  .tall_standard {
+    position: relative;
+    height: 35vw;
+    width: auto;
+    margin-right: 13vw;
+  }
+
+  .thin_standard {
+    position: relative;
+    height: 35vw;
+    width: auto;
+  }
+
+
+
 }
