@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 813px) {
 body {
   background: #9A0000;
   font-family: 'Overpass Mono', monospace;
@@ -111,7 +111,7 @@ p {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 812px) {
   body {
       background: blue;
       font-family: 'Overpass Mono', monospace;
