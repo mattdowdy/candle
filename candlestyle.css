@@ -170,6 +170,7 @@ p {
   .candle_grid {
     float:left;
     margin-left: 4.5rem;
+    bottom: 0;
   }
 
   .short_standard {
